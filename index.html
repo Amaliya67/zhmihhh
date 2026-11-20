@@ -163,9 +163,7 @@ document.getElementById('partnerForm').addEventListener('submit', function(e) {
    'Заведение: ' + data.get('company') + '\\n' +
    'Комментарий: ' + (data.get('message') || 'не указан')
  );
- if (typeof ym === 'function') {
-    ym(114255848, 'reachGoal', 'partner_request_click');
-}
+
  window.location.href = 'mailto:amalia60706@gmail.com?subject=' + subject + '&body=' + body;
 });
 </script>
